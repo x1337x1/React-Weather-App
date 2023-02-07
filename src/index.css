@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.container{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center; 
+  align-items: center;
+  background-image: url('../src/images/background-image.png');
+ 
+}
+
+.card{
+  background-image: url('../src/images/background-image2.png');
+  border: 1px;
+  border-radius: 30px;
+  width: 140vh;
+  height: 700px;
+}
+.input{
+  width: 220px;
+  height: 30px;
+  position: absolute;
+  top: 18%;
+  left: 45%;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border:  rgba(255,255,255, 0.8);
+  background: rgba(255,255,255, 0.1);
+  color: #f8f8f8;
+  text-align: center;
+  
+  
+}
+
+.city{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: white;
+  position: absolute;
+  top: 16%;
+  left: 66%;
+  letter-spacing:3px;
+}
+
+.cords-lon{
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 23%;
+  left: 66%;
+  letter-spacing:1px;
+}
+.cords-lat{
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 26%;
+  left: 66%;
+  letter-spacing:1px;
+}
+.time{
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  top: 13%;
+  left: 389px;
+
+}
+.date{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: white;
+  position: absolute;
+  top: 27%;
+  left: 368px;
+  letter-spacing:3px;
+
+}
+.img{
+  
+  position: absolute;
+  top: 28%;
+  left: 18%;
+}
+.temp{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  color: white;
+  position: absolute;
+  top: 33%;
+  left: 550px;
+  letter-spacing:3px;
+}
+.main{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 32%;
+  left: 560px;
+  letter-spacing:3px;
+}
+.description{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  top: 38%;
+  left: 550px;
+  letter-spacing:3px;
+}
+.img-wind{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 65%;
+  left: 88.7vh;
+}
+.img-pressure{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 65%;
+  left: 122.7vh;
+}
+.img-humidity{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 65%;
+  left: 150.7vh;
+}
+.img-feelsLike{
+  width: 130px;
+  height: 110px;
+  position: absolute;
+  top: 64%;
+  left: 52.7vh;
+}
+
+
+.temp-now{
+  color: white;
+  position: absolute;
+  top: 75%;
+  left: 48.7vh;
+}
+.wind-speed{
+  color: white;
+  position: absolute;
+  top: 75%;
+  left: 80.2vh;
+}
+.pressure-value{
+  color: white;
+  position: absolute;
+  top: 75%;
+  left: 116.5vh;
+}
+.humidity-value{
+  color: white;
+  position: absolute;
+  top: 75%;
+  left: 146.5vh;
+}
+h1{
+  font-family: 'Quicksand', sans-serif;
+}
+
